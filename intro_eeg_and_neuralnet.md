@@ -62,8 +62,23 @@ Each color is represented by a number between 0 and 255.
 The image is a big matrix consisting of those numbers in a matrix. Each pixel is one number.
 There are several challenges to image classification, for example: Viewpoint (camera angle) variation, interclass variation, fine-grained categories (like different species of cats), background clutter, illumination changes (light), deformation (objects in image may be in diff. poses), when the object is blocked)
 
+Image classification is also an important building block towards other things. e.g. object detection.
 
-# EEG Intro
+Process for Machine Learing: the data driven approach.
+We first need a large set of images as training data. e.g. cat images vs. dog images. Next, we need human labels on these images. Two parts:
+1. train: we input images and their associated labels, and we form a prediction algorithm.
+2. predict. input the model we made for prediction, and new images we wanna classify.
 
-hello!
+ # Lecture 2 Notes - (UM EECS)
+ We will work with CIFAR10. Mediumly challenging.
 
+ First algorithm: Nearest Neighbor
+
+ Ok right now, I will pause. The UM Course seem to be a bit too challenging for now, especially the coding and OOP. I would like to switch to a more basic course (Andrew Ng deep learning to build up foundations. Let's go.
+
+ 
+
+
+
+ 
+ 
