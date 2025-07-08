@@ -42,7 +42,9 @@ In the sulculs (groove), there is less synchronized activity but in gyrus, there
 Electrodes - Simple sensors made of coductive material connected to wires and connected to amplifiers. E.g. tin, silver, silver chloride, gold, graphite. In clinical settings, electrodes often placed on scalp using sticky paste. In research settings, caps are used with electrodes fixed in positions. Electrodes don't touch the scalp. It maintains a few mm of distance from it. Conductive gel is actually injected in between to maintain conductivity. Dry electrodes (directly placed on scalp) are more prone to noise. Wet electrodes are better data quality.
 
 "The International 10-20 system is the standard method for electrode placement in electroencephalography (EEG). This system utilizes anatomical landmarks on the skull to standardize electrode positions, ensuring reproducibility of EEG recordings across different individuals and laboratories." - Gemini. This convention helps ensure consistency across studies.
+
 <img width="300" alt="Screenshot 2025-07-08 at 10 48 36 PM" src="https://github.com/user-attachments/assets/281c6bd2-5842-4117-acee-28788f9ff55d" />
+
 Nasion, Inion, vertex.
 Electrode positions tend to be more approximate, because of different head shapes. The letters on the image represent the different regimes on the head.
 e.g. F - frontal. P- parietal, T- temporal, O-occipital.
@@ -63,6 +65,42 @@ Active elctrode, ground electrode, and a reference electrode.
 (A-G)-(R-G) I think this eliminates noise from ground electrode and environment.
 
 # What's a good EEG signal?
+Noise- defined as any change in the data not of interest to the researcher. EM noise, even brain signals not of interest.
+We call that artifiact.
+Ampere's law- any electrical current generates a magnetic field. Electricity needs a conducting medium, but magnetic fields can travel long distances in air.
+The problem: Electrodes are connected to wires. When currents pass through the wires, it generates magnetic fields that can cause induced currents. Induced frequencies also oscillate. Electrical devices all emit magnetic fields. Thus it is important to be mindful of the subject's proximity to other devices (electric cables are as far away from patient as possible).
+The noise follow rules - they work at higher frequencies than what we care about in the EEG! EEG is usually < 30-40 Hz.
+Headphones often use electricity to control their speakers, and the frequency and intensity of the electricity depends on the sound they produce. Headphones noise can really damage EEG data.
+Eye, muscle movements - can also contribute to electric dipoles. Eyes- electric dipoles between retina and the front of the eye. Whe eye moves, dipole orientation changes that can cause visible EEG Data change. Muscles- especially facial and neck muscles -> artifacts. These will be dealt with using MNE pythoon! Yay!
+Tips: scheduling breaks, avoiding tasks during fatigue reduce artifacts
+<img width="635" alt="Screenshot 2025-07-08 at 11 16 03 PM" src="https://github.com/user-attachments/assets/4a1b96c0-a28d-4ce2-a107-e17e3b9a16c5" />
+
+# Different Brain Frequencies
+
+If I have 3 peaks in a 1 second duration, then my wave is 3 Hz frequency. 
+<img width="200" alt="Screenshot 2025-07-08 at 11 21 13 PM" src="https://github.com/user-attachments/assets/790ce83e-3817-44da-88b6-e30ac177fde8" />
+(Completes 3 cycles in one second) 以此类推
+Heinrich Hertz. German Physicist.
+Amplitude of the wave. Height from baseline to the top. Indicates strength of an EEG signal during a particular frequency. 
+<img width="500" alt="Screenshot 2025-07-08 at 11 24 29 PM" src="https://github.com/user-attachments/assets/69775a92-909f-40ba-b9fd-f79900f147ec" />
+Delta wave - during sleep, or when brain is dealing w/ damage.
+Theta - When tackling brain tasks
+Alpha - in sensory stimuli
+Beta - when super focused
+<img width="309" alt="Screenshot 2025-07-08 at 11 27 07 PM" src="https://github.com/user-attachments/assets/37da770e-4ef1-4959-87c3-4909de687353" />
+This image depicts the inverse relationship between frequency and amplitiude. It's called the power-law function of EEG spectra.
+Alpha Rhythms 1929
+- it's kinda like decreased activation of the cortex.
+Beta Rhythms
+- Focused mental work.
+- Stimulating the reticular formation or the thalamus might be able to help patients who have low-level consciousness, and cause more beta waves -- high-frequency, low-voltage waves. Beta- alertness.
+Theta Wave
+- Becomes the star of the show when we place electrodes in hippocampus and during tasks of memory and learning.
+- Hippocampus generates theta waves during wakefulness and sleep.
+
+
+
+
 
 
 
