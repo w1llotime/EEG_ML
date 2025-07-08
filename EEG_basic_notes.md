@@ -73,21 +73,28 @@ The noise follow rules - they work at higher frequencies than what we care about
 Headphones often use electricity to control their speakers, and the frequency and intensity of the electricity depends on the sound they produce. Headphones noise can really damage EEG data.
 Eye, muscle movements - can also contribute to electric dipoles. Eyes- electric dipoles between retina and the front of the eye. Whe eye moves, dipole orientation changes that can cause visible EEG Data change. Muscles- especially facial and neck muscles -> artifacts. These will be dealt with using MNE pythoon! Yay!
 Tips: scheduling breaks, avoiding tasks during fatigue reduce artifacts
+
 <img width="635" alt="Screenshot 2025-07-08 at 11 16 03 PM" src="https://github.com/user-attachments/assets/4a1b96c0-a28d-4ce2-a107-e17e3b9a16c5" />
 
 # Different Brain Frequencies
 
-If I have 3 peaks in a 1 second duration, then my wave is 3 Hz frequency. 
+If I have 3 peaks in a 1 second duration, then my wave is 3 Hz frequency.
+
 <img width="200" alt="Screenshot 2025-07-08 at 11 21 13 PM" src="https://github.com/user-attachments/assets/790ce83e-3817-44da-88b6-e30ac177fde8" />
+
 (Completes 3 cycles in one second) 以此类推
 Heinrich Hertz. German Physicist.
 Amplitude of the wave. Height from baseline to the top. Indicates strength of an EEG signal during a particular frequency. 
+
 <img width="500" alt="Screenshot 2025-07-08 at 11 24 29 PM" src="https://github.com/user-attachments/assets/69775a92-909f-40ba-b9fd-f79900f147ec" />
+
 Delta wave - during sleep, or when brain is dealing w/ damage.
 Theta - When tackling brain tasks
 Alpha - in sensory stimuli
 Beta - when super focused
+
 <img width="309" alt="Screenshot 2025-07-08 at 11 27 07 PM" src="https://github.com/user-attachments/assets/37da770e-4ef1-4959-87c3-4909de687353" />
+
 This image depicts the inverse relationship between frequency and amplitiude. It's called the power-law function of EEG spectra.
 Alpha Rhythms 1929
 - it's kinda like decreased activation of the cortex.
@@ -97,8 +104,29 @@ Beta Rhythms
 Theta Wave
 - Becomes the star of the show when we place electrodes in hippocampus and during tasks of memory and learning.
 - Hippocampus generates theta waves during wakefulness and sleep.
+  
+# Frequency of Analysis
+## Power Spectral Density Analysis and Fourier Transform!
+PSD & FFT:
+We are decomposing the signals into individual contributions of each frequency.
+FFT:
+Takes time-based EEG signal into its fundamental frequencies.
+
+<img width="792" alt="Screenshot 2025-07-08 at 11 43 48 PM" src="https://github.com/user-attachments/assets/c3c1e76f-2438-4ab0-ad7c-42b88beafca5" />
+
+Breaking down how much power (amplitude) each frequency contributes! What it is doing is transforming time domain to frequency domain.
+
+Topographic plots?
+-  Hue or intensity of each shade in the plot indicate the strength of a particular frequency at a particular location in the brain
+-  Each plot has a designated frequency. It basically maps where in the brain does this frequency have high strength. Locations are literally locations of electrodes!
+
+# Time Domain Analysis and Event Related Potential (ERPs)
+ERP - involves presenting stimuli during an EEG recording.
+The brain encodes by concepts in specific brain regions, the 'Jennifer Aniston cells". So it makes sense if the brain is surprised.
+ 
 
 
+ 
 
 
 
