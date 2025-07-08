@@ -1,3 +1,4 @@
+# What format is EEG data in?
 An EDF Data file is a data format tailored for physiological signals. It is separated into a header and a data record.
 The format is made so that it has 1 file per recording for each patient.
 <img width="900" alt="Screenshot 2025-07-07 at 9 43 31 PM" src="https://github.com/user-attachments/assets/5241d0f1-f21a-4c08-a839-de14e0d16f7e" />
