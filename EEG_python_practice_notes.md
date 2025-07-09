@@ -205,7 +205,9 @@ theta: 4.5191
 alpha: -6.8821
 beta: 1.3479
 
-There are like the m1, m2, m3, m4 we commonly see in ML models. They are the weights that describe how much each input is weighed into determining the class of the sample input. Thus, we ahve 4 inputs here for each epoch, and each input is the the total power of the frequency band it corresponds to. e.g. the first value is the total power of the delta band for that epoch. Because it is a good quantifiable way to measure the contribution of each band.
+There are like the m1, m2, m3, m4 we commonly see in ML models. They are the weights that describe how much each input is weighed into determining the class of the sample input. Thus, we ahve 4 inputs here for each epoch, and each input is the the total power of the frequency band it corresponds to. e.g. the first value is the total power of the delta band for that epoch. Because it is a good quantifiable way to measure the contribution of each band. That is precisely why we first need to do EEG feature extraction in order to be able to put it into our ML model and classify it! 
+
+In real experimental settings, after we have collected the EEG file and data, we need to convert it into an array and then do feature extraction to predict what class it should be in!
 
 
 
