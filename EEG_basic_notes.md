@@ -8,6 +8,9 @@ Average band power is a single number that describes how much a particular frequ
 A periodogram basically breaks down a signal into frequency components and show the power or strength of each frequency range.
 PSD (Power spectral density): the concentration of a signal's power per unit of frequency. Shows which frequencies contain the most energy
 
+https://github.com/w1llotime/EEG_ML/blob/main/EEG_python_practice_notes.md
+This is the link to an EEG machine learning model, with explanations. I intend to make a full guide on how to build one to absolute beginners later, when I get better.
+
 # EEG NOTES START HERE
 
 Hans Berger considered pioneer. He believed that brain wavesgave rise to telepathy.
