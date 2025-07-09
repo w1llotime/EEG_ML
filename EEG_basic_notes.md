@@ -124,7 +124,11 @@ Topographic plots?
 ERP - involves presenting stimuli during an EEG recording.
 The brain encodes by concepts in specific brain regions, the 'Jennifer Aniston cells". So it makes sense if the brain is surprised.
  
+## What is an Epoch?
+It refers to the window of time where an EEG signal is recorded. It is like a sample of signal.
+Averaging (ERP Analysis): When you average many epochs of the same type (e.g., all epochs where a "relaxed" state occurred), the random, non-event-related brain activity tends to cancel out, leaving behind the consistent, event-related brain responses (known as Event-Related Potentials or ERPs).
 
+Feature Extraction: For machine learning, epochs provide the individual "samples" or "data points" from which features (like our frequency band power) are extracted. Each epoch becomes one row in your feature matrix (X).
 
  
 
