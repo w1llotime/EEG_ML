@@ -1,3 +1,9 @@
+---
+layout: default # Or 'page', 'post' depending on your theme and desired layout
+title: My First Note
+permalink: /first-note/
+---
+
 ## Introduction to EEG and Machine Learning
 This is the beginning of my notes for EEG signal processing and neural networks. I will mainly be taking notes from 2 sources 1) EEG Signal Processing and Machine Learning Textbook, 2) Coursera Courses about neural networks.
 
