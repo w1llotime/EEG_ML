@@ -1,6 +1,5 @@
 # EEG ML Practice Model
-This is a basic EEG signal generation + machine learning model, only for learning purposes. This signal is not a real signal, rather generated using the superposition of sine waves. 
-Most of the code is from gemini and I've only tried to replicate it. The matplotlib part is entirely copied from gemini.
+This is a basic EEG signal generation + machine learning model, only for learning purposes. This signal is not a real signal, rather generated using the superposition of sine waves.
 
 After running it you can see the following nice diagram.
 
